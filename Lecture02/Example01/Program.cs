@@ -11,9 +11,11 @@ namespace Example01
         static void Main(string[] args)
         {
             Console.Write("請輸入數字1:");
-            int num1 =int.Parse(Console.ReadLine());
+            int num1 = 0;
+            int.TryParse(Console.ReadLine(),out num1);
             Console.Write("請輸入數字2:");
-            int num2 = int.Parse(Console.ReadLine());
+            int num2 = 0;
+            int.TryParse(Console.ReadLine(),out num2);
             Console.WriteLine("{0}+{1}={2}",num1,num2,num1+num2);
         }
     }

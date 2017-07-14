@@ -28,7 +28,7 @@ namespace PokemonLibrary
             atony.quickAttackLevel = 7;
             atony.digAttackName = "污泥炸彈";
             atony.digAttackNameLevel = 80;
-            atony.gpsAddress = "台灣,新北市三重區";
+            atony.gpsAddress = "台灣,新北市三重";
             atony.dateNow = DateTime.Now.ToShortDateString();
             Console.WriteLine
             ("{0}\n{1}\n{2}\n{3}\n{4}\n{5}\n{6}\n{7}\n{8}" +
